@@ -1,0 +1,70 @@
+{
+  "name": "freshair",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@coinbase/wallet-sdk": "3.0.1",
+    "@ethersproject/bignumber": "^5.6.2",
+    "@ethersproject/experimental": "^5.6.3",
+    "@ethersproject/providers": "^5.6.8",
+    "@ethersproject/units": "^5.6.1",
+    "@headlessui/react": "0.0.0-insiders.591b328",
+    "@heroicons/react": "^1.0.6",
+    "@material-ui/core": "^4.12.4",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.1.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^16.11.27",
+    "@types/react": "^18.0.5",
+    "@types/react-dom": "^18.0.1",
+    "@web3-react/core": "6.1.9",
+    "@web3-react/injected-connector": "6.0.7",
+    "@web3-react/walletconnect-connector": "6.2.13",
+    "@web3-react/walletlink-connector": "6.2.13",
+    "Buffer": "^0.0.0",
+    "axios": "^0.27.2",
+    "node-sass": "^7.0.1",
+    "react": "^18.0.0",
+    "react-countdown": "^2.3.2",
+    "react-dom": "^18.0.0",
+    "react-hot-toast": "^2.2.0",
+    "react-modal": "^3.15.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.6.3",
+    "web-vitals": "^2.1.4",
+    "web3": "^1.7.4",
+    "ethers": "5.5.4"
+  },
+  "scripts": {
+    "start-https": "HTTPS=true SSL_CRT_FILE=./cert.pem SSL_KEY_FILE=./key.pem react-scripts start",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "typescript": "^4.6.3"
+  }
+}
